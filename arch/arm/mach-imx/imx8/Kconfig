@@ -172,6 +172,16 @@ config TARGET_IMX8QXP_DDR3_VAL
 	select BOARD_LATE_INIT
 	select IMX8QXP
 
+config TARGET_IMX8QXP_VAR_SOM
+	bool "Support Variscite VAR-SOM-MX8X board"
+	select IMX8_BOARD_INIT_DRAM
+	select BOARD_LATE_INIT
+	select IMX8QXP
+	select FSL_CAAM
+	select FSL_BLOB
+	select ARCH_MISC_INIT
+	select SPL_CRYPTO if SPL
+	
 config TARGET_IMX8X_17X17_VAL
 	bool "Support i.MX8QXP/DX 17x17 validation board"
 	select BOARD_LATE_INIT
@@ -237,6 +247,7 @@ source "board/advantech/imx8qm_rom7720_a1/Kconfig"
 source "board/toradex/apalis-imx8/Kconfig"
 source "board/toradex/colibri-imx8x/Kconfig"
 source "board/siemens/capricorn/Kconfig"
+source "board/variscite/imx8qxp_var_som/Kconfig"
 
 config SKIP_RESOURCE_CHECKING
 	bool "Skip resource owner checking to kernel FDT nodes"
