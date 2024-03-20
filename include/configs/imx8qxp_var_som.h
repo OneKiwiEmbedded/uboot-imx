@@ -120,7 +120,13 @@
 			"else " \
 				"booti; " \
 			"fi;" \
-		"fi;\0"
+		"fi;\0" \
+	"splashsourceauto=yes\0" \
+	"splashfile=/boot/splash.bmp\0" \
+	"splashimage=0x9e000000\0" \
+	"splashenable=setenv splashfile /boot/splash.bmp; " \
+		"setenv splashimage 0x83100000\0" \
+	"splashdisable=setenv splashfile; setenv splashimage\0"
 /*
 #define CFG_EXTRA_ENV_SETTINGS		\
 	CFG_MFG_ENV_SETTINGS \
