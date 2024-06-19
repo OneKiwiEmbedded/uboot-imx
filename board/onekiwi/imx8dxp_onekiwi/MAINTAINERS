@@ -1,0 +1,6 @@
+i.MX8DXP SOM BOARD
+M:	Thanh Duong <thanh.duong.vs@gmail.com>
+S:	Maintained
+F:	board/onekiwi/imx8dxp_onekiwi/
+F:	include/configs/imx8dxp_onekiwi.h
+F:	configs/imx8dxp_onekiwi_defconfig
