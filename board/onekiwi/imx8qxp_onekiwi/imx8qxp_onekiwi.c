@@ -92,11 +92,7 @@ static inline void board_gpio_init(void) {}
 
 int checkboard(void)
 {
-#ifdef CONFIG_TARGET_IMX8DX_MEK
-	puts("Board: iMX8DX MEK\n");
-#else
-	puts("Board: iMX8QXP MEK\n");
-#endif
+	puts("Board: OneKiw iMX8QXP SOM\n");
 
 	print_bootinfo();
 
@@ -266,8 +262,8 @@ int board_late_init(void)
 	build_info();
 
 #ifdef CONFIG_ENV_VARS_UBOOT_RUNTIME_CONFIG
-	env_set("board_name", "onekiwi-imx8dxp-som");
-	env_set("board_rev", "iMX8DXP");
+	env_set("board_name", "onekiwi-imx8qxp-som");
+	env_set("board_rev", "iMX8QXP");
 #endif
 
 	env_set("sec_boot", "no");

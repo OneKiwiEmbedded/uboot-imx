@@ -1021,7 +1021,7 @@ dtb-$(CONFIG_ARCH_IMX8) += \
 	fsl-imx8dxl-ddr3l-evk.dtb \
 	imx8-deneb.dtb \
 	imx8-giedi.dtb \
-	imx8dxp-onekiwi.dtb \
+	imx8qxp-onekiwi.dtb \
 	imx8qxp-var-som.dtb
 
 dtb-$(CONFIG_ARCH_IMX8ULP) += \

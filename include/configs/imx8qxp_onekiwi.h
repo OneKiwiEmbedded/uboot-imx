@@ -3,8 +3,8 @@
  * Copyright 2018 NXP
  */
 
-#ifndef __IMX8DXP_ONEKIWI_H
-#define __IMX8DXP_ONEKIWI_H
+#ifndef __IMX8QXP_ONEKIWI_H
+#define __IMX8QXP_ONEKIWI_H
 
 #include <linux/sizes.h>
 #include <linux/stringify.h>
@@ -95,7 +95,7 @@
 	"cntr_addr=0x98000000\0"			\
 	"cntr_file=os_cntr_signed.bin\0" \
 	"boot_fdt=try\0" \
-	"fdt_file=imx8dxp-onekiwi.dtb\0" \
+	"fdt_file=imx8qxp-onekiwi.dtb\0" \
 	"mmcdev="__stringify(CONFIG_SYS_MMC_ENV_DEV)"\0" \
 	"mmcpart=1\0" \
 	"mmcroot=/dev/mmcblk0p2 rootwait rw\0" \
@@ -184,4 +184,4 @@
 #include "imx8qxp_mek_android_auto.h"
 #endif
 
-#endif /* __IMX8DXP_ONEKIWI_H */
+#endif /* __IMX8QXP_ONEKIWI_H */
