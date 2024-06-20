@@ -152,6 +152,15 @@ config TARGET_IMX8QXP_MEK
 	select ARCH_MISC_INIT
 	select SPL_CRYPTO if SPL
 
+config TARGET_IMX8QXP_ONEKIWI
+	bool "Support i.MX8QXP OneKiwi SOM"
+	select BOARD_LATE_INIT
+	select IMX8QXP
+	select FSL_CAAM
+	select FSL_BLOB
+	select ARCH_MISC_INIT
+	select SPL_CRYPTO if SPL
+	
 config TARGET_IMX8QM_MEK_A53_ONLY
         bool "Support i.MX8QM MEK board, cluster A53 only"
         select BOARD_LATE_INIT
