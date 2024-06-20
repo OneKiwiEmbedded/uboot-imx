@@ -246,6 +246,7 @@ source "board/advantech/imx8qm_rom7720_a1/Kconfig"
 source "board/toradex/apalis-imx8/Kconfig"
 source "board/toradex/colibri-imx8x/Kconfig"
 source "board/siemens/capricorn/Kconfig"
+source "board/onekiwi/imx8qxp_onekiwi/Kconfig"
 
 config SKIP_RESOURCE_CHECKING
 	bool "Skip resource owner checking to kernel FDT nodes"
