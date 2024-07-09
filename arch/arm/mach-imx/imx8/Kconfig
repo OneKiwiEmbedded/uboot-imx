@@ -152,8 +152,8 @@ config TARGET_IMX8QXP_MEK
 	select ARCH_MISC_INIT
 	select SPL_CRYPTO if SPL
 
-config TARGET_IMX8QXP_ONEKIWI
-	bool "Support i.MX8QXP OneKiwi SOM"
+config TARGET_IMX8DXP_ONEKIWI
+	bool "Support i.MX8DXP OneKiwi SOM"
 	select BOARD_LATE_INIT
 	select IMX8QXP
 	select FSL_CAAM
@@ -161,7 +161,7 @@ config TARGET_IMX8QXP_ONEKIWI
 	select ARCH_MISC_INIT
 	select SPL_CRYPTO if SPL
 
-config TARGET_IMX8QXP_VAR_SOM
+config TARGET_IMX8QXP_VARISCITE
 	bool "Support Variscite VAR-SOM-MX8X board"
 	select IMX8_BOARD_INIT_DRAM
 	select BOARD_LATE_INIT
@@ -256,8 +256,8 @@ source "board/advantech/imx8qm_rom7720_a1/Kconfig"
 source "board/toradex/apalis-imx8/Kconfig"
 source "board/toradex/colibri-imx8x/Kconfig"
 source "board/siemens/capricorn/Kconfig"
-source "board/variscite/imx8qxp_var_som/Kconfig"
-source "board/onekiwi/imx8qxp_onekiwi/Kconfig"
+source "board/variscite/imx8qxp_variscite/Kconfig"
+source "board/onekiwi/imx8qxd_onekiwi/Kconfig"
 
 config SKIP_RESOURCE_CHECKING
 	bool "Skip resource owner checking to kernel FDT nodes"

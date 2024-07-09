@@ -6,11 +6,11 @@
 
 /dts-v1/;
 
-#include "imx8qxp-var-som.dtsi"
+#include "imx8qxp-variscite.dtsi"
 
 / {
 	model = "OneKiwi - Variscite i.MX8QXP RevC";
-	compatible = "fsl,imx8qxp-var-som", "fsl,imx8qxp";
+	compatible = "fsl,imx8qxp-variscite", "fsl,imx8qxp";
 
 	aliases {
 		gpio8 = &pca9534;

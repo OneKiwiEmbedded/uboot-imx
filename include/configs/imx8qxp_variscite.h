@@ -4,8 +4,8 @@
  * Copyright 2019-2023 Variscite Ltd.
  */
 
-#ifndef __IMX8QXP_VAR_SOM_H
-#define __IMX8QXP_VAR_SOM_H
+#ifndef __IMX8QXP_VARISCITE_H
+#define __IMX8QXP_VARISCITE_H
 
 #include <linux/sizes.h>
 #include <linux/stringify.h>
@@ -295,4 +295,4 @@
 #define CONFIG_HIDE_LOGO_VERSION
 #endif
 
-#endif /* __IMX8QXP_VAR_SOM_H */
+#endif /* __IMX8QXP_VARISCITE_H */

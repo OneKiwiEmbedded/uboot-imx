@@ -3,8 +3,8 @@
  * Copyright 2018 NXP
  */
 
-#ifndef __IMX8QXP_ONEKIWI_H
-#define __IMX8QXP_ONEKIWI_H
+#ifndef __IMX8DXP_ONEKIWI_H
+#define __IMX8DXP_ONEKIWI_H
 
 #include <linux/sizes.h>
 #include <linux/stringify.h>
@@ -184,4 +184,4 @@
 #include "imx8qxp_mek_android_auto.h"
 #endif
 
-#endif /* __IMX8QXP_ONEKIWI_H */
+#endif /* __IMX8DXP_ONEKIWI_H */

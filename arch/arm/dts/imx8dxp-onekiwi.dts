@@ -8,8 +8,8 @@
 #include "fsl-imx8qxp.dtsi"
 
 / {
-	model = "OneKiwi i.MX8QXP SOM";
-	compatible = "onekiwi,imx8qxp-onekiwi", "fsl,imx8qxp";
+	model = "OneKiwi i.MX8DXP SOM";
+	compatible = "onekiwi,imx8dxp-onekiwi", "fsl,imx8qxp";
 
 	aliases {
 		i2c4 = &bb_i2c1;

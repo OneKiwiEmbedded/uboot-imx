@@ -4,5 +4,5 @@
 # SPDX-License-Identifier:	GPL-2.0+
 #
 
-obj-y += imx8qxp_onekiwi.o
+obj-y += imx8dxp_onekiwi.o
 obj-$(CONFIG_SPL_BUILD) += spl.o
